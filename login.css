@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: #deb887;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+    color: #deb887;
+}
+
+/* Cabeçalho */
+header{
+    background-color: crimson;
+    color: deeppink;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+}
+header p {
+    margin-top: 5px;
+}
+
+main{
+    width: 400px;
+    margin: 60px auto;
+}
+.login{
+    background-color: aliceblue;
+    padding: 30px;
+    border: 1px solid cornsilk;
+    border-radius: 10px;
+}
+.login h2 {
+    text-align: center;
+    color: crimson;
+    margin-top: 0;
+}
+.descriçao{
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 30px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: hotpink;
+    color: aliceblue;
+    border: nome;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+    color: crimson;
+}
+.cadastro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.cadastro a {
+    color: darkmagenta;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: crimson;
+    font-size: 13px;
+}
