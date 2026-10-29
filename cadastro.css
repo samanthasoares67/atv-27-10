@@ -1,0 +1,136 @@
+body {
+margin: 0;
+background-color: #fff5f8;
+font-family: Arial, sans-serif;
+color: #59465e;
+}
+
+/* Estrutura geral */
+.pagina {
+width: 90%;
+max-width: 1100px;
+margin: 40px auto;
+background-color: white;
+font-size: 0;
+border-radius: 12px;
+overflow: hidden;
+}
+
+/* Lado esquerdo */
+.apresentacao {
+display: inline-block;
+width: 45%;
+padding: 30px;
+box-sizing: border-box;
+vertical-align: top;
+background-color: #f8dce8;
+
+}
+
+.apresentacao h1 {
+color: #a66f96;
+font-size: 24px;
+margin-bottom: 50px;
+}
+
+.apresentacao h2 {
+font-size: 36px;
+color: #78618d;
+}
+
+.apresentacao p {
+line-height: 1.6;
+color: #59465e;
+}
+
+.beneficios {
+margin-top: 30px;
+padding: 20px;
+border: 1px solid #c8bce9;
+border-radius: 8px;
+background-color: #e1effa;
+font-size: 16px;
+}
+
+.beneficios h3 {
+color: #8b78b5;
+margin-bottom: 15px;
+}
+
+.beneficios p {
+    color: #59465e;
+    margin-bottom: 10px;
+}
+
+/* Lado direito */
+.area-cadastro {
+display: inline-block;
+width: 55%;
+padding: 25px;
+box-sizing: border-box;
+vertical-align: top;
+background-color: #ffffff;
+}
+
+.area-cadastro h2 {
+font-size: 28px;
+margin-bottom: 5px;
+color: #956b9c;
+}
+
+.area-cadastro p {
+color: #777777;
+font-size: 16px;
+line-height: 1.5;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+/* Formulário */
+form {
+margin-top: 25px;
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-top: 14px;
+margin-bottom: 6px;
+font-size: 14px;
+}
+
+input {
+width: 100%;
+padding: 11px;
+box-sizing: border-box;
+border: 1px solid #dfcde8;
+border-radius: 6px;
+background-color: #fffafd;
+
+}
+
+button {
+width: 100%;
+padding: 14px;
+margin-top: 25px;
+color: #59465e;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #c8bce9;
+}
+
+.login {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+}
+
+.login a {
+color: #a66f96;
+font-weight: bold;
+}
